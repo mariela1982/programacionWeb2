@@ -37,10 +37,19 @@
         <form method="post" enctype="multipart/form-data" action="Ejercicio3/procecar3.php">
             <h2> Ejercicio 3 -- concatenar texto </h2>
             <label for="textA"> ingrese oracion a </label>
-            <input type="text" size="100" name="textA" placeholder="ingrese una oracion"> <br>
+            <input type="text"  name="textA" > <br>
             <label for="textB">ingrese oracion b </label>
-            <input type="text" size="100" name="textB" placeholder="ingrese una orarion "> <br>
+            <input type="text" name="textB" "> <br>
             <input type="submit" value="enviar">
+        </form>
+    </section>
+    <section class="eje4">
+        <form method="post" enctype="multipart/form-data" action="Ejercicio4/procesar4.php">
+            <h2> Ejercicio 4 -- incremento por referencia  </h2>
+            <label for="num"> ingrese un numero </label>
+            <input type="text"  name="num[]" > <br>
+            <input type="submit" value="enviar">
+
         </form>
     </section>
 
