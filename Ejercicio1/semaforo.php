@@ -13,13 +13,13 @@ function semaforo_a ($color){
 }
 
 //funcion con if in line
-function semaforo_b($color){
-    return ($color === "rojo") ? "frene":
-        ($color === "amarillo") ? "precaucion" :
-            ($color === "verde") ? "avance" :
-                "estado desconocido" ;
+//function semaforo_b($color){
+  //  return ($color == "rojo") ? "frene":
+    //    ($color == "amarillo") ? "precaucion" :
+      //      ($color == "verde") ? "avance" :
+        //        "estado desconocido" ;
 
-}
+//}
 
 //funcion con switch
 
@@ -31,7 +31,9 @@ function semaforo_c ($color){
             return "precaucion";
         case "verde":
             return "avance";
-        default "estado desconocido";
+        default :
+            return"estado desconocido";
+
     }
 }
 
