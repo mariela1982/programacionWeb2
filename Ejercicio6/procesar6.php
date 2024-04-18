@@ -9,8 +9,8 @@ if ($_SERVER ["REQUEST_METHOD"] == "POST") {
 
     $saludo = new Saludar($nombre,$apellido);
 
-  echo  $saludo->saludoInFormal($hora);
-   echo  $saludo->saludoFormal($hora);
+   $saludo->saludoInFormal($hora) . "<br>";
+   $saludo->saludoFormal($hora) . "<br>";
 
 } else echo "no hubo datos <br>";
 

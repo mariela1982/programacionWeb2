@@ -12,20 +12,20 @@ public function __construct($nombre, $apellido){
 }
 public function saludoFormal($horario){
     if (4< $horario && $horario <14){
-        echo "Buenos Dias" . $this ->nombre . $this ->apellido;
+        echo "Buenos Dias  " . $this ->nombre . $this ->apellido . "<br>";
     } elseif (14 < $horario && $horario <21){
-        echo "Buenas Tardes" . $this ->nombre . $this ->apellido;
+        echo "Buenas Tardes  " . $this ->nombre . $this ->apellido. "<br>";
     } elseif (21 < $horario && $horario <5){
-        echo "Buenas Noches" . $this ->nombre . $this ->apellido;
+        echo "Buenas Noches  " . $this ->nombre . $this ->apellido. "<br>";
     }
 }
     public function saludoInFormal($horario){
         if (4< $horario && $horario <14){
-            echo "Hola" . $this ->nombre . "que tengas un buen dia";
+            echo "Hola  " . $this ->nombre . "  que tengas un buen dia <br>";
         } elseif (14 < $horario && $horario <21){
-            echo "Buenas Tardes" . $this ->nombre . "que tengas unas buenas tardes";
+            echo "Hola " . $this ->nombre . "  que tengas unas buenas tardes <br>";
         } elseif (21 < $horario && $horario <5){
-            echo "Buenas Noches" . $this ->nombre . "que tengas unas noches";
+            echo "Hola " . $this ->nombre . "  que tengas unas noches <br>";
         }
     }
 }

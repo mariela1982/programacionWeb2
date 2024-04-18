@@ -1,0 +1,20 @@
+* {
+    margin: 5px;
+    padding: 5px;
+}
+header{
+    border-style: double;
+}
+h1 {
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section {
+    border-style: ridge;
+    width: 15cm;
+}
