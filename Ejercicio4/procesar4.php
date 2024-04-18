@@ -1,10 +1,10 @@
 <?php
 require_once ("parametro.php");
 
-if (isset($_POST['$num'])){
+if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
-    $a = $_POST[ '$num'];
-    $resultado = incrementar($num);
+    $a = $_POST ['$num'];
+    $resultado = incrementar($a);
     echo 'el valor es ' . $resultado ;
 } else
     echo 'no se ha ingresado valor';

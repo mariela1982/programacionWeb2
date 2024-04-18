@@ -36,10 +36,10 @@
     <section class="eje3">
         <form method="post" enctype="multipart/form-data" action="Ejercicio3/procecar3.php">
             <h2> Ejercicio 3 -- concatenar texto </h2>
-            <label for="textA"> ingrese oracion a </label>
-            <input type="text"  name="textA" > <br>
-            <label for="textB">ingrese oracion b </label>
-            <input type="text" name="textB" "> <br>
+            <label for="eje3a"> ingrese oracion a </label>
+            <input type="text"  name="eje3a" size="50"> <br>
+            <label for="eje3b">ingrese oracion b </label>
+            <input type="text" name="eje3b" size="50" > <br>
             <input type="submit" value="enviar">
         </form>
     </section>
@@ -47,11 +47,34 @@
         <form method="post" enctype="multipart/form-data" action="Ejercicio4/procesar4.php">
             <h2> Ejercicio 4 -- incremento por referencia  </h2>
             <label for="num"> ingrese un numero </label>
-            <input type="text"  name="num[]" > <br>
+            <input type="text"  name="num" size="50" > <br>
             <input type="submit" value="enviar">
 
         </form>
     </section>
+    <section class="eje5">
+        <form method="post" enctype="multipart/form-data" action="Ejercicio5/procesar5.php">
+            <h2> Ejercicio 5 -- sumatoria de arrays  </h2>
+            <label for="num_array"> ingrese algunos numero  con el formto 2,3,5,19 </label>
+            <input type="text"  name="num_array" > <br>
+            <input type="submit" value="enviar">
+
+        </form>
+    </section>
+    <section class="eje6">
+        <form method="post" enctype="multipart/form-data" action="Ejercicio6/procesar6.php">
+            <h2> Ejercicio 6 saludo </h2>
+            <label for="nombre"> ingrese su nombre </label>
+            <input type="text"  name="nombre" > <br>
+            <label for="apellido"> ingrese su apellido </label>
+            <input type="text"  name="apellido" > <br>
+            <label for="hora"> ingrese la hora en formato numero de 24 hs  </label>
+            <input type="text" name="hora" > <br>
+            <input type="submit" value="enviar">
+
+        </form>
+    </section>
+
 
 </main>
 

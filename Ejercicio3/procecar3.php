@@ -2,16 +2,17 @@
 
 require_once ("concatena.php");
 
-if( isset($_POST['$textA']) && isset($_POST['$textB'])){
-    $text1 = $_POST['$textA'];
-    $text2 = $_POST['$textB'];
+if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
 
-    $c = concatenarCadena($text1, $text2);
+    $t1 = $_POST [ 'eje3a'];
+    $t2 = $_POST [ 'eje3b'];
+
+
+    $c = concatenarCadena($t1, $t2);
 
     echo "la concatenacion quedo asi " . $c . "<br>";
-    echo $text1;
-    echo $text2;
+
 } else {
    echo "no se ingreso oracion";}
 
