@@ -12,14 +12,18 @@ if (isset($_POST['ejercicio1'])) {
    // $estado_b = semaforo_b($color); no me salio
     $estado_c = semaforo_c($color);
     // Mostrar el estado correspondiente
+    echo "<p>Usted eligio el color : ".$color."</p>";
     echo "<p>Estado del semáforo: $estado</p> \n";
   //  print ("<p>Estado del semáforo : $estado_b </p>"); es del ifinLine
     print ("<p>Estado del semáforo : $estado_c</p> \n");
+
 } else {
     echo "<p>Error: No se recibio el color del semaforo.</p>";
 }
 
+
  // vuelve al principio
+
     echo '<a href="http://localhost/programacionWeb2/inicio.php"><button>Volver al home </button></a>';
 
 ?>

@@ -14,6 +14,10 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
 }
+.contenedor img {
+    max-width: 90%;
+    height: auto;
+}
 section {
     border-style: ridge;
     width: 15cm;

@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
     $c = concatenarCadena($t1, $t2);
 
-    echo "la concatenacion quedo asi " . $c . "<br>";
+    echo "la concatenacion quedo asi con las palabras que usted ingreso " . $c . "<br>";
 
 } else {
    echo "no se ingreso oracion";}

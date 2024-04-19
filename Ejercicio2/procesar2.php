@@ -11,8 +11,8 @@ if (isset($_POST['eje2a'] ) && isset($_POST['eje2b'])) {
     $resultadob = binomioCuadradoPerfecto_b($valorA,$valorB);
 
     //imprimo resultado
-    echo ("<p>el resultado es:  $resultado</p> \n");
-    echo "el resultado es: " . $resultadob;
+    echo ("<p>el resultado es calculado por potencia :  $resultado</p> \n");
+    echo "el resultado es calculado con la formula de binomio: " . $resultadob;
 } else {
     echo "no se recibio vlores";
 }
