@@ -13,12 +13,18 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 .contenedor img {
     max-width: 90%;
     height: auto;
 }
+
 section {
+
     border-style: ridge;
-    width: 15cm;
+    width: 50cm;
 }
+
+
+

@@ -12,78 +12,22 @@
 <?php include ('header.php'); ?>
 
 <main class="contenedor">
-    <section class="eje1">
-        <h2> Ejercicio 1 -- el semaforo </h2>
-        <img src="cssEimagenes/Ejercicio1.png" >
-    <form method="post" enctype="multipart/form-data" action="Ejercicio1/procesar1.php" >
-        <label for="ejercicio1"> Semaforo color  </label>
-        <select name="ejercicio1" id="ejercicio1">
-            <option value="noAnda" selected>No funciona</option>
-            <option value="rojo">rojo</option>
-            <option value="amarillo">amarillo</option>
-            <option value="verde">verde</option>
-        </select>
-        <input type="submit" value="enviar">
-    </form>
-    </section>
-    <section class="eje2">
-        <form method="post" enctype="multipart/form-data" action="Ejercicio2/procesar2.php">
-            <h2>Ejercicio 2-- Binomio cuadrado Perfecto </h2>
-            <img src="cssEimagenes/Ejercicio2.png" >
-            <label for="eje2a"> Ingrese numero para el valor a </label>
-            <input type="text" name="eje2a" size="10"> <br>
-            <label for="eje2b"> Ingrese numero para el valor b </label>
-            <input type="text" name="eje2b" size="10">
-            <input type="submit" value="enviar">
-        </form>
-    </section>
-    <section class="eje3">
-        <form method="post" enctype="multipart/form-data" action="Ejercicio3/procecar3.php">
-            <h2> Ejercicio 3 -- concatenar texto </h2>
-            <img src="cssEimagenes/Ejercicio3.png" >
-            <label for="eje3a"> Ingrese oracion a </label>
-            <input type="text"  name="eje3a" size="50"> <br>
-            <label for="eje3b">Ingrese oracion b </label>
-            <input type="text" name="eje3b" size="50" >
-            <input type="submit" value="enviar">
-        </form>
-    </section>
-    <section class="eje4">
-        <form method="post" enctype="multipart/form-data" action="Ejercicio4/procesar4.php">
-            <h2> Ejercicio 4 -- Incremento por referencia  </h2>
-            <img src="cssEimagenes/Ejercicio4.png" >
-            <label for="num"> Ingrese un numero </label>
-            <input type="text"  name="num" size="50" >
-            <input type="submit" value="enviar">
 
-        </form>
-    </section>
-    <section class="eje5">
-        <form method="post" enctype="multipart/form-data" action="Ejercicio5/procesar5.php">
-            <h2> Ejercicio 5 -- sumatoria de arrays  </h2>
-            <img src="cssEimagenes/Ejercicio5.png" >
-            <label for="num_array"> Ingrese algunos numero  con el formato 2,3,5,19(entre comas) </label><br>
-            <input type="text"  name="num_array" size="50" >
-            <input type="submit" value="enviar">
-
-        </form>
-    </section>
-    <section class="eje6">
-        <form method="post" enctype="multipart/form-data" action="Ejercicio6/procesar6.php">
-            <h2> Ejercicio 6 -- Saludo </h2>
-            <img src="cssEimagenes/Ejercicio6.png" >
-            <label for="nombre"> Ingrese su nombre </label>
-            <input type="text"  name="nombre" size="50" > <br>
-            <label for="apellido"> Ingrese su apellido </label>
-            <input type="text"  name="apellido" size="49" > <br>
-            <label for="hora"> Ingrese la hora en formato numero de 24 hs  </label>
-            <input type="text" name="hora" size="27" >
-            <input type="submit" value="enviar">
-
-        </form>
-    </section>
+    <a href="Ejercicio1/procesar1.php" >Ejercicio 1</a>
+    <a href="Ejercicio2/procesar2.php" >Ejercicio 2</a>
+    <a href="Ejercicio3/procecar3.php" >Ejercicio 3</a>
+    <a href="Ejercicio4/procesar4.php" >Ejercicio 4</a>
+    <a href="Ejercicio5/procesar5.php" >Ejercicio 5</a>
+    <a href="Ejercicio6/procesar6.php" >Ejercicio 6</a>
+    <a href="Ejercicio9/procesar9.php" >Ejercicio 9</a>
+    <a href="Ejercicio11/procesar11.php" >Ejercicio 11</a>
+    <a href="Ejercicio12/procesar12.php" >Ejercicio 12</a>
+    <a href="Ejercicio13/procesar13.php" >Ejercicio 13</a>
+    <a href="Ejercicio14/procesar14.php" >Ejercicio 14</a>
+    <a href="Ejercicio15/procesar15.php" >Ejercicio 15</a>
 
 
+ <iframe src="https://miel.unlam.edu.ar/data7/data2/contenido/2628/Programacio-n-web-2.pdf" width="800" height="400"> enunciados</iframe>
 
 </main>
 
